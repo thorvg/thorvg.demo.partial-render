@@ -111,7 +111,7 @@ class MyApp {
 	}
 
 	ready() {
-		let url = "https://raw.githubusercontent.com/hermet/partial-test/main/particle.jpg";
+		let url = "particle.jpg";
 		let request = new XMLHttpRequest();
 		request.open('GET', url, true);
 		request.responseType = 'arraybuffer';
