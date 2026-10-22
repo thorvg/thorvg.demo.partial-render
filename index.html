@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="description" content="ThorVG Test Application">
+	<meta name="author" content="Hermet Park">
+	<link rel="stylesheet"  href="style.css">
+	<link rel="icon" type="image/svg+xml" href="favicon.svg">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>ThorVG Test | Thor Vector Graphics</title>
+</head>
+<body>
+	<section>
+ 		<canvas id="content-area" width="2600" height="1463"></canvas>
+	</section>
+	<div id="button-container">
+		<label class="switch-label">
+			<span class="label-text">Partial Render</span>
+			<label class="switch">
+				<input type="checkbox" id="toggle-partial" checked>
+				<span class="slider round"></span>
+			</label>
+		</label>
+	</div>
+	<div id="info-text">
+		This test is intentionally designed to demonstrate a buffer clear operation, high-resolution image rendering, a full-scene dark overlay for night shading, and the rendering of thousands of objects (raindrops) using ThorVG's software renderer. To measure high-performance rendering capabilities, the rendering resolution is fixed regardless of your screen size.
+	</div>
+	<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
