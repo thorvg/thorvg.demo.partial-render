@@ -7,8 +7,10 @@
 
 A simple test app for comparing rendering performance with and without partial rendering using ThorVG's CPU engine.
 
+<br/>
+
 <p align="center">
-  <img width="600" height="auto" src="https://github.com/thorvg/thorvg.janitor/blob/main/title.png">
+  <img width="1867" height="auto" alt="image" src="https://github.com/user-attachments/assets/a0113313-157c-4ff9-a396-0b0668790afe" />
 </p>
 
 ## Authors
